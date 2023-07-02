@@ -101,7 +101,7 @@ function App() {
 
   const onClickHandler = () => {
 
-    if (secondFiles === null && files === null) {
+    if (secondFiles === null || files === null) {
       toast.error('Please slect some files', { autoClose: 1000, })
       return;
     }
