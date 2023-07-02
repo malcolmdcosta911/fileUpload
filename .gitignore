@@ -24,4 +24,9 @@ yarn-error.log*
 
 
 #Others
-!somefolder/.gitkeep
+
+# exclude everything
+uploads/*
+
+# exception to the rule
+!uploads/.gitkeep 
