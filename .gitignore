@@ -30,3 +30,6 @@ uploads/*
 
 # exception to the rule
 !uploads/.gitkeep 
+
+
+#touch .gitkeep -- cause git does not take an empty file

@@ -34,6 +34,7 @@ function App() {
     //console.log(event.target.files);
     if (maxSelectFile(event, 1) && allowedFiletypes(event) && maxFileSize(event)) {
       setFiles(event.target.files);
+      //ok
     }
   };
 
